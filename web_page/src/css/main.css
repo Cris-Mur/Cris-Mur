@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    color: #222;
+    background: #fff;
+    font: 100% system-ui;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+      color: #eee;
+      background: #121212;
+      background-image: url('/web_page/src/img/star.gif');
+      background-size: cover;
+    }
+  
+    body a {
+      color: #809fff;
+    }
+  }
+
+div{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-content: center;
+}
+
+section{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.photo{
+    background-image: url('/web_page/src/img/photo.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.bio{
+    justify-content: center;
+    align-content: center;
+}
+.ico{
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
+
+.location{
+    background-image: url('/web_page/src/img/location-ico.png');
+}
+
+.git{
+    background-image: url('/web_page/src/img/gitlogo.png');
+}
+
+.cris-mur{
+    justify-content: center;
+}
+.portfolio{
+    justify-content: center;
+}
