@@ -1,6 +1,6 @@
 # Software Developer
 My Name is Cristian, and this is my GitHub.
-<div>
+<div align="center">
 	<img width='3000' alt="Cris-mur Wall img" src="./src/images/perfil/perfil_extended.png" class="responsive"/>
 	<table>
 		<tr>
